@@ -12,7 +12,7 @@ layout: null
   
     <h2>{{ item.title }}: {{ item.page }}</h2>
     {% capture url %}{{ item.url | remove: ".html"  }}{% endcapture %}
-    {{ site.pages | jsonify }}
+    {{ site.collection | jsonify }}
     {% for p in site.pages %} {% if p.url == url %}
     {{p.content  | markdownify }}
     {% endif %}{% endfor %}
