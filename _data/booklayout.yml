@@ -1,10 +1,15 @@
 layout:
-   subfolderitems:
-     section: section02
+  - subfolderitems:
+     section: section01
+     subfolderitems:
+        - title: 
+          url: section01/title.html
+  - subfolderitems:
+     section: network-layer
      title: network layer
      url: network-layer/network-layer.html
      subfolderitems:
-        section: section02
+        section: network-layer
         title: Xmodem / SEALink / Telink / Zmodem
         url: network-layer/Xmodem-SEALink-Telink-Zmodem.html
         subfolderitems:
