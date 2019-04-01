@@ -9,25 +9,25 @@ layout:
         url: /section01/introduction.html
   - title: Section 02
     page: network layer
-    url: /section02/network-layer.html
+    url: /network-layer/network-layer.html
     subfolderitems:
       - page: Xmodem / SEALink / Telink / Zmodem
-        url: /section02/Xmodem-SEALink-Telink-Zmodem.html
+        url: /network-layer/Xmodem-SEALink-Telink-Zmodem.html
         subsubfolderitems:
             - page: Xmodem
-              url: /section02/Xmodem.html
+              url: /network-layer/Xmodem.html
             - page: SEALink
-              url: /section02/SEALink.html
+              url: /network-layer/SEALink.html
             - page: TeLink
-              url: /section02/TeLink.html
+              url: /network-layer/TeLink.html
             - page: Zmodem
-              url: /section02/Zmodem.html
+              url: /network-layer/Zmodem.html
             - page: AX.25 / Packet Radio
-              url: /section02/AX-25-Packet-Radio.html
+              url: /network-layer/AX-25-Packet-Radio.html
             - page: UUCP
-              url: /section02/UUCP.html
+              url: /network-layer/UUCP.html
             - page: SneakerNet
-              url: /section02/SneakerNet.html
+              url: /network-layer/SneakerNet.html
   - title: Group 3
     subfolderitems:
       - page: Widget 1
