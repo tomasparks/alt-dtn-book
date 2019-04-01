@@ -23,7 +23,7 @@ layout:
             - page: Zmodem
               url: /network-layer/Zmodem.html
             - page: AX.25 / Packet Radio
-              url: /network-layer/AX-25-Packet-Radio.html
+              url: /network-layer/AX25.html
             - page: UUCP
               url: /network-layer/UUCP.html
             - page: SneakerNet

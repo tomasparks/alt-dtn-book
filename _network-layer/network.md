@@ -3,21 +3,6 @@ layout: section-h1
 title: Network layer
 ---
 
-### TeLink ###
->  MODEM7 sent the filename as normal text, which meant it could be corrupted by the same problems that XMODEM was attempting to avoid. This led to the introduction of TeLink by Tom Jennings, author of the original FidoNet mailers.
->  TeLink avoided MODEM7's problems by standardizing a new "zero packet" containing information about the original file. This included the file's name, size, and timestamp, which were placed in a regular 128 byte XMODEM block. Whereas a normal XMODEM transfer would start with the sender sending "block 1", the TeLink header packet was labeled "block 0".
->  The basic "block 0" system became a standard in the FidoNet community, and was re-used by a number of future protocols like SEAlink and YMODEM.
-- <https://en.wikipedia.org/wiki/XMODEM>
-### Zmodem ###
->  ZMODEM is a file transfer protocol developed by Chuck Forsberg in 1986, in a project funded by Telenet in order to improve file transfers on their X.25 network. In addition to dramatically improved performance compared to older protocols, ZMODEM also offered restartable transfers, auto-start by the sender, an expanded 32-bit CRC, and control character quoting, allowing it to be used on networks that might "eat" control characters. ZMODEM became extremely popular on bulletin board systems (BBS) in the early 1990s, displacing earlier protocols such as XMODEM and YMODEM.
-- <https://en.wikipedia.org/wiki/ZMODEM>
-### AX.25 / Packet Radio ###
-> AX.25 is a data link layer protocol derived from the X.25 protocol suite and designed for use by amateur radio operators. It is used extensively on amateur packet radio networks.
-> AX.25 v2.0 and later occupies the data link layer, the second layer of the OSI model. It is mainly responsible for establishing connections and transferring data encapsulated in frames between nodes and detecting errors introduced by the communications channel. As AX.25 is a pre-OSI-model protocol, the original specification was not written to cleanly separate into OSI layers. This was rectified with version 2.0 (1984), which assumes compliance with OSI level 2.
-> In practice, it is not uncommon to find an AX.25 data link layer as the transport for some other network layer, such as IPv4, with TCP used on top of that. Note that, like Ethernet, AX.25 frames are not engineered to support switching. For this reason, AX.25 supports a somewhat limited form of source routing. Although possible to build AX.25 switches in a manner not unlike how Ethernet switches work, this has not yet been accomplished.
-- https://en.wikipedia.org/wiki/AX.25
-limited to 1200 bits per second audio frequency-shift keying (AFSK) is this correct?
-very long history of use starting in 1971, lead to birth of the Ethernet standard and all modern wireless digital networks
 ### UUCP ###
 > UUCP is an abbreviation of Unix-to-Unix Copy. The term generally refers to a suite of computer programs and protocols allowing remote execution of commands and transfer of files, email and netnews between computers.
 - https://en.wikipedia.org/wiki/UUCP

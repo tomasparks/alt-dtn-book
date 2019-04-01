@@ -12,7 +12,7 @@ layout: null
   
     <h2>{{ item.title }}: {{ item.page }}</h2>
     {% capture url %}{{ item.url | replace: '.html', '.md' }}{% endcapture %}
-    {% include_relative url | markdownify %}
+    {% include_relative url %}
   
       {% if item.subfolderitems[0] %}
   
