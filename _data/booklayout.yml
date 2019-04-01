@@ -1,10 +1,12 @@
 layout:
-  - title: Group 1
+  - title: Section 01
     subfolderitems:
+      - page: title
+        url: /section01/title.html
       - page: Forward
         url: /section01/forward.html
-      - page: Thing 2
-        url: /thing2.html
+      - page: Introduction
+        url: /section01/introduction.html
   - title: Section 02
     page: network layer
     url: /section02/network-layer.html
