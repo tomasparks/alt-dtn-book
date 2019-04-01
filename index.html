@@ -12,7 +12,7 @@ layout: null
   
     <h2>{{ item.title }}: {{ item.page }}</h2>
     {% capture url %}{{ item.url | remove: ".html"  }}{% endcapture %}
-    {{ site.collection | jsonify }}
+    {{ site.[item.section] | jsonify }}
     {% for p in site.pages %} {% if p.url == url %}
     {{p.content  | markdownify }}
     {% endif %}{% endfor %}
@@ -26,9 +26,9 @@ layout: null
           {% for entry in item.subfolderitems %}
   
               <li><a href="{{ entry.url }}">{{ entry.page }}</a>
-                {% if entry.subsubfolderitems[0] %}
+                {% if entry.subfolderitems[0] %}
                   <ul>
-                  {% for subentry in entry.subsubfolderitems %}
+                  {% for subentry in entry.subfolderitems %}
                       <li><a href="{{ subentry.url }}">{{ subentry.page }}</a></li>
                   {% endfor %}
                   </ul>

@@ -7,6 +7,15 @@ layout:
         section: section02
         title: Xmodem / SEALink / Telink / Zmodem
         url: network-layer/Xmodem-SEALink-Telink-Zmodem.html
-        subsubfolderitems:
+        subfolderitems:
               section: section02
-
+                 - title: Xmodem
+                   url: network-layer/Xmodem.html
+                 - title: SEALink
+                   url: network-layer/SEALink.html
+                 - title: TeLink
+                   url: network-layer/TeLink.html
+                 - title: Zmodem
+                   url: network-layer/Zmodem.html
+                 - title: AX.25 / Packet Radio
+                   url: network-layer/AX25.html
