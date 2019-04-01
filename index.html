@@ -11,8 +11,12 @@ layout: null
   <section>
   
     <h2>{{ item.title }}: {{ item.page }}</h2>
-    {% capture url %}{{ item.url | replace: '.html', '.md' }}{% endcapture %}
-    {% include_relative url %}
+    {% capture url %}{{ item.url | remove: ".html"  }}{% endcapture %}
+    {% for p in site.pages %} {% if p.url == url %}
+    {{p.content | | markdownify }}
+    {% endif %}{% endfor %}
+    
+    
   
       {% if item.subfolderitems[0] %}
   
