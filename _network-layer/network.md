@@ -3,9 +3,6 @@ layout: section-h1
 title: Network layer
 ---
 
-### SEALink ###
->  SEAlink is a file transfer protocol that is backward compatible with XMODEM but features a sliding window system for improved throughput. SEAlink was written in 1986 as a part of the SEAdog FidoNet mailer written by System Enhancement Associates. It was licensed with a simple "give credit" requirement, but nevertheless was not very widely used except in FidoNet mailers. SEAlink, and most other XMODEM enhancements, were quickly displaced following the introduction of ZMODEM.
-- https://en.wikipedia.org/wiki/SEAlink
 ### TeLink ###
 >  MODEM7 sent the filename as normal text, which meant it could be corrupted by the same problems that XMODEM was attempting to avoid. This led to the introduction of TeLink by Tom Jennings, author of the original FidoNet mailers.
 >  TeLink avoided MODEM7's problems by standardizing a new "zero packet" containing information about the original file. This included the file's name, size, and timestamp, which were placed in a regular 128 byte XMODEM block. Whereas a normal XMODEM transfer would start with the sender sending "block 1", the TeLink header packet was labeled "block 0".
