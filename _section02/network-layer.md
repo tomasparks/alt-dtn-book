@@ -1,6 +1,7 @@
 ---
 layout: section-h1
 title: Network layer
+level: 1
 ---
 
   * Most of the network layers except Sneakernet and IP stack were build with analogue landline modems
