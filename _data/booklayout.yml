@@ -8,7 +8,6 @@ layout:
         title: Xmodem / SEALink / Telink / Zmodem
         url: network-layer/Xmodem-SEALink-Telink-Zmodem.html
         subfolderitems:
-              section: section02
                  - title: Xmodem
                    url: network-layer/Xmodem.html
                  - title: SEALink
