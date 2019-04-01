@@ -1,20 +1,15 @@
 layout:
-  - title:
-   section: section01
-   - page: title
-     url: section01/title.html
-   - page: Forward
-    url: section01/forward.html
-   - page: Introduction
-     url: section01/introduction.html
      subfolderitems:
    - title: Section 02
+     section: section02
    - page: network layer
      url: network-layer/network-layer.html
     subfolderitems:
+        section: section02
       - page: Xmodem / SEALink / Telink / Zmodem
         url: network-layer/Xmodem-SEALink-Telink-Zmodem.html
         subsubfolderitems:
+              section: section02
             - page: Xmodem
               url: network-layer/Xmodem.html
             - page: SEALink
