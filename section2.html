@@ -3,8 +3,10 @@ layout: null
 title: Section 02
 ---
 {% include header.html %}
-{% for section02 in site.section02 | sort: 'level' %}
-  <h2> {{ section02.level }}: <a href="{{ section02.url }}">{{ section02.title }}</a></h2>
-  <p>{{ section02.content | markdownify }}</p>
+{% for section02 in site.section02 sort: 'level' %}
+<section>
+{% if section02.level == "1" %}<h1> 1: <a href="{{ section02.url }}">{{ section02.title }}</a></h1>{% endif %}
+  <div>{{ section02.content | markdownify }}</div>
+</section>
 {% endfor %}
 {% include footer.html %}
