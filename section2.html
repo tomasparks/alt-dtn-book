@@ -3,7 +3,7 @@ layout: null
 title: Section 02
 ---
 {% include header.html %}
-{% for sec2 in site.network-layer %}
+{% for sec2 in site.netlayer %}
 <section>
 {% if sec2.level == "1" %}<h1> 1: <a href="{{ sec2.url }}">{{ sec2.title }}</a></h1>{% endif %}
   <div>{{ sect2.content | markdownify }}</div>
