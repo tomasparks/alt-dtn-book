@@ -7,3 +7,5 @@ collections:
     output: true
   tables:
     output: true
+  dtn:
+    output: true
