@@ -1,0 +1,89 @@
+<html><head><meta http-equiv="Content-Type" content="text/html; charset=utf-8"/><title>Unknown </title></head><body>
+<h1 id="network-layer">Network layer</h1>
+<ul>
+<li>Most of the network layers except Sneakernet and IP stack were build with analogue landline modems</li>
+</ul>
+<!-- -->
+
+<ul>
+<li>the IP stack was build on a lease line network</li>
+<li>Sneakernet has been the early way of transferring data/documents/letters since the beginning of recoded history (Mail, Pony Express, etc )</li>
+</ul>
+<h2 id="xmodem-sealink-telink-zmodem"><span id="anchor"></span><span id="Xmodem"></span>Xmodem / SEALink / Telink / Zmodem</h2>
+<p>I am unsure witch modem file transfer protocol is the best, I am tossing up between Sealink, TeLink and Zmodem</p>
+<h3 id="xmodem"><span id="anchor-1"></span>Xmodem</h3>
+<p><strong><em>*XMODEM</em></strong> is a simple <em><a href="https://en.wikipedia.org/wiki/File_transfer"><em>file transfer</em></a></em> protocol developed as a quick <em><a href="https://en.wikipedia.org/wiki/Hacker_%28hobbyist%29"><em>hack</em></a></em> by <em><a href="https://en.wikipedia.org/wiki/Ward_Christensen"><em>Ward Christensen</em></a></em> for use in his 1977 <strong><em>MODEM.ASM</em></strong> <em><a href="https://en.wikipedia.org/wiki/Terminal_program"><em>terminal program</em></a></em>. It allowed users to transmit files between their computers when both sides used MODEM. Keith Petersen made a minor update to always turn on "quiet mode", and called the result XMODEM.*</p>
+<ul>
+<li>https://en.wikipedia.org/wiki/XMODEM</li>
+</ul>
+<h3 id="sealink"><span id="anchor-2"></span>SEALink</h3>
+<p><strong><em>*SEAlink</em></strong> is a <em><a href="https://en.wikipedia.org/wiki/File_transfer"><em>file transfer protocol</em></a></em> that is <em><a href="https://en.wikipedia.org/wiki/Backward_compatibility"><em>backward compatible</em></a></em> with <em><a href="https://en.wikipedia.org/wiki/XMODEM"><em>XMODEM</em></a></em> but features a <em><a href="https://en.wikipedia.org/wiki/Sliding_window"><em>sliding window</em></a></em> system for improved <em><a href="https://en.wikipedia.org/wiki/Throughput"><em>throughput</em></a></em>. SEAlink was written in 1986 as a part of the <strong><em>SEAdog</em></strong> <em><a href="https://en.wikipedia.org/wiki/FidoNet"><em>FidoNet</em></a></em> mailer written by <em><a href="https://en.wikipedia.org/w/index.php?title=System_Enhancement_Associates&amp;action=edit&amp;redlink=1"><em>System Enhancement Associates</em></a></em>. It was licensed with a simple "give credit" requirement, but nevertheless was not very widely used except in FidoNet mailers. SEAlink, and most other XMODEM enhancements, were quickly displaced following the introduction of <em><a href="https://en.wikipedia.org/wiki/ZMODEM"><em>ZMODEM</em></a></em>.*</p>
+<ul>
+<li>https://en.wikipedia.org/wiki/SEAlink</li>
+</ul>
+<h3 id="telink"><span id="anchor-3"></span><span id="anchor-4"></span>TeLink</h3>
+<p><em>MODEM7 sent the filename as normal text, which meant it could be corrupted by the same problems that XMODEM was attempting to avoid. This led to the introduction of <strong><em>TeLink</em></strong> by </em><a href="https://en.wikipedia.org/wiki/Tom_Jennings"><em>Tom Jennings</em></a><em>, author of the original </em><a href="https://en.wikipedia.org/wiki/FidoNet"><em>FidoNet</em></a><em> mailers.</em></p>
+<p><em>TeLink avoided MODEM7's problems by standardizing a new "zero packet" containing information about the original file. This included the file's name, size, and </em><a href="https://en.wikipedia.org/wiki/Timestamp"><em>timestamp</em></a><em>, which were placed in a regular 128 byte XMODEM block. Whereas a normal XMODEM transfer would start with the sender sending "block 1", the TeLink header packet was labeled "block 0".</em></p>
+<p><em>The basic "block 0" system became a standard in the FidoNet community, and was re-used by a number of future protocols like </em><a href="https://en.wikipedia.org/wiki/SEAlink"><em>SEAlink</em></a><em> and </em><a href="https://en.wikipedia.org/wiki/YMODEM"><em>YMODEM</em></a><em>.</em></p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/XMODEM">https://en.wikipedia.org/wiki/XMODEM</a></li>
+</ul>
+<h3 id="zmodem"><span id="anchor-5"></span>Zmodem</h3>
+<p><strong><em>*ZMODEM</em></strong> is a <em><a href="https://en.wikipedia.org/wiki/Protocol_for_file_transfer"><em>file transfer protocol</em></a></em> developed by <em><a href="https://en.wikipedia.org/wiki/Chuck_Forsberg"><em>Chuck Forsberg</em></a></em> in 1986, in a <em><a href="https://en.wikipedia.org/wiki/Project"><em>project</em></a></em> funded by <em><a href="https://en.wikipedia.org/wiki/Telenet"><em>Telenet</em></a></em> in order to improve file transfers on their <em><a href="https://en.wikipedia.org/wiki/X.25"><em>X.25</em></a></em> network. In addition to dramatically improved performance compared to older protocols, ZMODEM also offered restartable transfers, auto-start by the sender, an expanded 32-bit <em><a href="https://en.wikipedia.org/wiki/Cyclic_redundancy_check"><em>CRC</em></a></em>, and <em><a href="https://en.wikipedia.org/wiki/Escape_character"><em>control character quoting</em></a></em>, allowing it to be used on networks that might "eat" control characters. ZMODEM became extremely popular on <em><a href="https://en.wikipedia.org/wiki/Bulletin_board_system"><em>bulletin board systems</em></a></em> (BBS) in the early 1990s, displacing earlier protocols such as <em><a href="https://en.wikipedia.org/wiki/XMODEM"><em>XMODEM</em></a></em> and <em><a href="https://en.wikipedia.org/wiki/YMODEM"><em>YMODEM</em></a></em>.*</p>
+<ul>
+<li>https://en.wikipedia.org/wiki/ZMODEM</li>
+</ul>
+<h2 id="ax25-packet-radio"><span id="anchor-6"></span><span id="AX.25"></span>AX.25 / Packet Radio</h2>
+<p><strong><em>*AX.25</em></strong> is a <em><a href="https://en.wikipedia.org/wiki/Data_link_layer"><em>data link layer</em></a></em> <em><a href="https://en.wikipedia.org/wiki/Protocol_%28computing%29"><em>protocol</em></a></em> derived from the <em><a href="https://en.wikipedia.org/wiki/X.25"><em>X.25</em></a></em> protocol suite and designed for use by <em><a href="https://en.wikipedia.org/wiki/Amateur_radio"><em>amateur radio</em></a></em> operators. It is used extensively on amateur <em><a href="https://en.wikipedia.org/wiki/Packet_radio"><em>packet radio</em></a></em> <em><a href="https://en.wikipedia.org/wiki/Computer_network"><em>networks</em></a></em>.*</p>
+<p><em>AX.25 v2.0 and later occupies the </em><a href="https://en.wikipedia.org/wiki/Data_link_layer"><em>data link layer</em></a><em>, the second layer of the </em><a href="https://en.wikipedia.org/wiki/OSI_model"><em>OSI model</em></a><em>. It is mainly responsible for establishing connections and transferring data encapsulated in </em><a href="https://en.wikipedia.org/wiki/Frame_%28networking%29"><em>frames</em></a><em> between </em><a href="https://en.wikipedia.org/wiki/Node_%28networking%29"><em>nodes</em></a><em> and detecting errors introduced by the </em><a href="https://en.wikipedia.org/wiki/Communications_channel"><em>communications channel</em></a><em>. As AX.25 is a pre-OSI-model protocol, the original specification was not written to cleanly separate into OSI layers. This was rectified with version 2.0 (1984), which assumes compliance with OSI level 2.</em></p>
+<p><em>In practice, it is not uncommon to find an AX.25 data link layer as the transport for some other network layer, such as IPv4, with TCP used on top of that. Note that, like Ethernet, AX.25 frames are not engineered to support switching. For this reason, AX.25 supports a somewhat limited form of </em><a href="https://en.wikipedia.org/wiki/Source_routing"><em>source routing</em></a><em>. Although possible to build AX.25 switches in a manner not unlike how Ethernet switches work, this has not yet been accomplished.</em></p>
+<ul>
+<li>
+<p>https://en.wikipedia.org/wiki/AX.25</p>
+</li>
+<li>
+<p><strong>limited to <em>1200 </em><a href="https://en.wikipedia.org/wiki/Bits_per_second"><em>bits per second</em></a><em> </em><a href="https://en.wikipedia.org/wiki/Frequency-shift_keying"><em>audio frequency-shift keying</em></a><em> (AFSK) </em>is this correct?</strong></p>
+</li>
+<li>very long history of use starting in 1971, lead to birth of the Ethernet standard and all modern wireless digital networks</li>
+</ul>
+<h2 id="uucp"><span id="anchor-7"></span><span id="UUCP"></span>UUCP</h2>
+<p><strong><em>*UUCP</em></strong> is an <em><a href="https://en.wikipedia.org/wiki/Abbreviation"><em>abbreviation</em></a></em> of <strong><em>Unix-to-Unix Copy</em></strong>. The term generally refers to a suite of <em><a href="https://en.wikipedia.org/wiki/Computer_program"><em>computer programs</em></a></em> and <em><a href="https://en.wikipedia.org/wiki/Communications_protocol"><em>protocols</em></a></em> allowing remote execution of commands and transfer of <em><a href="https://en.wikipedia.org/wiki/Computer_file"><em>files</em></a></em>, <em><a href="https://en.wikipedia.org/wiki/Email"><em>email</em></a></em> and <em><a href="https://en.wikipedia.org/wiki/Netnews"><em>netnews</em></a></em> between <em><a href="https://en.wikipedia.org/wiki/Computer"><em>computers</em></a></em>.*</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/UUCP">https://en.wikipedia.org/wiki/UUCP</a></li>
+</ul>
+<h2 id="sneakernet"><span id="anchor-8"></span><span id="SneakerNet"></span>SneakerNet</h2>
+<p><strong><em>*Sneakernet</em></strong> is an informal term describing the transfer of electronic information, especially <em><a href="https://en.wikipedia.org/wiki/Computer_file"><em>computer files</em></a></em>, by physically moving removable media such as <em><a href="https://en.wikipedia.org/wiki/Magnetic_tape"><em>magnetic tape</em></a></em>, <em><a href="https://en.wikipedia.org/wiki/Floppy_disk"><em>floppy disks</em></a></em>, <em><a href="https://en.wikipedia.org/wiki/Compact_disc"><em>compact discs</em></a></em>, <em><a href="https://en.wikipedia.org/wiki/USB_flash_drive"><em>USB flash drives</em></a></em> (thumb drives, USB stick) or external <em><a href="https://en.wikipedia.org/wiki/Hard_drive"><em>hard drives</em></a></em> from one <em><a href="https://en.wikipedia.org/wiki/Computer"><em>computer</em></a></em> to another, usually in lieu of transmitting the information over a <em><a href="https://en.wikipedia.org/wiki/Computer_network"><em>computer network</em></a></em>. The term, a <em><a href="https://en.wikipedia.org/wiki/Tongue-in-cheek"><em>tongue-in-cheek</em></a></em> play on <em><a href="https://en.wikipedia.org/wiki/Ethernet"><em>Ethernet</em></a></em>,refers to the use of someone wearing <em><a href="https://en.wikipedia.org/wiki/Sneakers_%28footwear%29"><em>sneakers</em></a></em> as the transport mechanism for the data.*</p>
+<ul>
+<li><a href="https://en.wikipedia.org/wiki/Sneakernet">https://en.wikipedia.org/wiki/Sneakernet</a></li>
+</ul>
+<h3 id="ip-over-avian-carriers"><span id="anchor-9"></span><span id="anchor-10"></span>IP over Avian Carriers</h3>
+<p><em>In </em><a href="https://en.wikipedia.org/wiki/Computer_networking"><em>computer networking</em></a><em>, <strong><em>IP over Avian Carriers</em></strong> (IPoAC) is a humorously intended proposal to carry </em><a href="https://en.wikipedia.org/wiki/Internet_Protocol"><em>Internet Protocol</em></a><em> (IP) </em><a href="https://en.wikipedia.org/wiki/Internet_traffic"><em>traffic</em></a><em> by </em><a href="https://en.wikipedia.org/wiki/Bird"><em>birds</em></a><em> such as </em><a href="https://en.wikipedia.org/wiki/Homing_pigeon"><em>homing pigeons</em></a><em>. IP over Avian Carriers was initially described in </em><a href="https://tools.ietf.org/html/rfc1149"><strong><em>*RFC 1149</em></strong>*</a><em>, issued by the </em><a href="https://en.wikipedia.org/wiki/Internet_Engineering_Task_Force"><em>Internet Engineering Task Force</em></a><em> (IETF) written by D. Waitzman and released on April 1, 1990.</em></p>
+<p><em>IPoAC has been successfully implemented, but for only nine packets of data, with a </em><a href="https://en.wikipedia.org/wiki/Packet_loss"><em>packet loss</em></a><em> ratio of 55% (due to user error),</em><span id="anchor-11"></span><a href="https://en.wikipedia.org/wiki/IP_over_Avian_Carriers#cite_note-2"><em>[2]</em></a><em> and a </em><a href="https://en.wikipedia.org/wiki/Response_time_%28telecommunications%29"><em>response time</em></a><em> ranging from 3000 seconds (~54 minutes) to over 6000 seconds (~1.77 hours). Thus, this technology suffers from poor </em><a href="https://en.wikipedia.org/wiki/Latency_%28engineering%29"><em>latency</em></a><em>. Nevertheless, for large transfers, avian carriers are capable of high average throughput when carrying flash memory devices, effectively implementing a </em><a href="https://en.wikipedia.org/wiki/Sneakernet"><em>sneakernet</em></a><em>. During the last 20 years, the information density of storage media and thus the bandwidth of an avian carrier has increased 3 times as fast as the bandwidth of the Internet.</em><span id="anchor-12"></span><a href="https://en.wikipedia.org/wiki/IP_over_Avian_Carriers#cite_note-3"><em>[3]</em></a><em> IPoAC may achieve bandwidth peaks of orders of magnitude more than the Internet when used with multiple avian carriers in rural areas. For example: If 16 homing pigeons are given eight 512��GB SD cards each, and take an hour to reach their destination, the throughput of the transfer would be 145.6 Gbit/s, excluding transfer to and from the SD cards.</em></p>
+<p>https://en.wikipedia.org/wiki/IP_over_Avian_Carriers</p>
+<h2 id="ip-stack"><span id="anchor-13"></span><span id="IPStack"></span>IP Stack</h2>
+<table>
+<thead>
+<tr>
+<th></th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Application</td>
+</tr>
+<tr>
+<td>Transport</td>
+</tr>
+<tr>
+<td>Internet/Network</td>
+</tr>
+<tr>
+<td>Data Link/Link</td>
+</tr>
+<tr>
+<td>Physical</td>
+</tr>
+</tbody>
+</table>
+<p>Table 1: IP Stack</p>
+</body></html>
