@@ -3,7 +3,7 @@ layout: null
 title: Section 02
 ---
 {% include header.html %}
-  {% assign sorted = (site.netlayer | sort: 'level') %}
+  {% assign sorted = site.netlayer | sort: 'level' %}
 {% for sec in sorted %}
 <section>
 <h1><a href="{{ sec.url }}">{{ sec.title }}</a></h1>
